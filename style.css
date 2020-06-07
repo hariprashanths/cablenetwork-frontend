@@ -1,0 +1,167 @@
+body{
+	/*font-family: "montserrat";*/
+}
+#title{
+	background-color: black;
+	color: #fbc71c;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+h1{
+	font-family: "montserrat";
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+h2{
+	font-family: "montserrat";
+	font-size: 2.5rem;
+	line-height: 1.5;
+	
+}
+h3{
+	font-family: "montserrat"
+
+}
+p{
+	color: #8f8f8f;
+}
+              /* navbar section */
+
+
+.navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family: "ubuntu"
+	font-size:2.5rem;
+	font-weight: bold;
+}
+
+
+.navbar-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "montserrat-light";
+}
+
+
+                /*download button*/
+.download-button{
+	margin: 5% 3% 5% 0%;
+
+}
+                 /* image */
+
+.image-sec{
+	width: 80%;
+	height: 100%;
+	transform:rotate(15deg); 
+	right: 30%;;
+	
+	margin-left:15%; 
+}    
+
+
+     /*feature section*/             
+#features{
+	padding: 7% 15%;
+	background-color: #fbc71c;
+
+	position: relative;
+	z-index: 1;
+	
+}  
+.feature-box{
+	text-align: center;
+	padding: 5%;
+} 
+.icon{
+	color: #black;
+	margin-bottom: 1rem;
+
+}  
+.icon:hover{
+	color: yellow;
+}
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: black;
+	color: #fbc71c;
+}
+.testimonials-img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press{
+	background-color: #fbc71c;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.press-logo{
+	width: 15%; 
+	margin: 20px 20px 50px;
+}
+#pricing{
+	background-color: black;
+	color: #fbc71c;
+	padding: 100px;
+	text-align: center;
+}
+.pricing-column{
+	padding: 3% 2%;
+}
+#cta{
+	background-color:  #fbc71c;
+	color: black;
+	padding: 7% 15%;
+	text-align: center;
+}
+.cta-heading{
+	font-family: "montserrat";
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: black;
+	color: #fbc71c;
+}
+.footer-socialicon{
+	margin: 20px 10px;
+}
+.btn:hover{
+	color:#fbc71c ;
+
+}
+.card-body{
+	background-color: black;
+}
+.card-header{
+	background-color: gray;
+}
+.copy{
+	color: #fbc71c;
+}
+
+
+
+
+
+@media (max-width: 1028px){
+#title{
+text-align: center;
+}
+
+	.image-sec{
+		position: static;
+		transform: rotate(0);
+
+	}
+}
